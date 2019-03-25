@@ -633,12 +633,16 @@ footer {
 #projects {
     padding: 50px 15px;
     border-bottom: 1px solid $border;
-    text-align: center;
 
     h2 {
         color: $heading;
         margin-bottom: 50px;
     }
+
+    p {
+      text-align: left;
+    }
+
 }
 
 .project {
@@ -672,6 +676,7 @@ footer {
         color: $text;
         margin: 0 0 15px 0;
         font-size: 0.9em;
+        text-align: left;
     }
 }
 
